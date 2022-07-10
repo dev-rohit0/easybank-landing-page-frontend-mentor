@@ -1,0 +1,12 @@
+const btn = document.getElementById('menu-btn')
+const nav = document.getElementById('menu')
+const hamburgerMenu = document.getElementById('hamburger-menu')
+const hamburgerMenuClose = document.getElementById('hamburger-menu-close')
+btn.addEventListener('click',()=>{
+    nav.classList.toggle('flex')
+    nav.classList.toggle('hidden')
+    hamburgerMenu.classList.toggle('hidden')
+    hamburgerMenu.classList.toggle('block')
+    hamburgerMenuClose.classList.toggle('hidden')
+    hamburgerMenuClose.classList.toggle('block')
+})

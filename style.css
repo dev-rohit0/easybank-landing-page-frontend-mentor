@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.hero{
+    
+    background-repeat: no-repeat;
+    object-fit: cover;
+    
+}
+#nav-menu{
+    animation-name: drop;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes drop {
+    0%{
+        top: -10%;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+
